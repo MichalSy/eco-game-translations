@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MSytko.EcoGame.TranslationsUpdater": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\projects\\eco-game-translations"
+    }
+  }
+}
