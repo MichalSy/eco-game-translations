@@ -106,7 +106,7 @@ namespace MSytko.EcoGame.TranslationsUpdater
 
                 foreach (var item in missingTranslations)
                 {
-                    File.AppendAllText(targetFile, $"\"{item.Key}\",\"{item.Value}\"\n");
+                    File.AppendAllText(targetFile, $"{Localizer.Convert(item.Key, true)},{Localizer.Convert(item.Value, true)}\n");
                 }
             }
         }
